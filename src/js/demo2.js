@@ -90,7 +90,7 @@ function dots() {
 let whale = null;
 const loader = new OBJLoader();
 loader.load(
-  "dragon.obj",
+  "Whale_Model.obj",
   (obj) => {
     whale = obj.children[0];
     whale.geometry.scale(0.3, 0.3, 0.3);
